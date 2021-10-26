@@ -32,19 +32,21 @@ h2{
 	color: var(--element-txt-color);
 	display: flex;
 }
-.imgvid .trailer{
-	margin: 16px;
-	border: var(--element-border-thickness) solid;
-	border-color: black;
-	border-radius: var(--element-border-radius);
-	box-shadow: 0px 0px 17px -1px #000000;
-}
 .imgvid .plakat{
 	margin: 16px;
 	border: var(--element-border-thickness) solid;
 	border-color: black;
 	border-radius: var(--element-border-radius);
 	box-shadow: 0px 0px 17px -1px #000000;
+	aspect-ratio: 235 / 332;
+}
+.imgvid .trailer{
+	margin: 16px;
+	border: var(--element-border-thickness) solid;
+	border-color: black;
+	border-radius: var(--element-border-radius);
+	box-shadow: 0px 0px 17px -1px #000000;
+	aspect-ratio: 16 / 9; 
 }
 
 .information{
