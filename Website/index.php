@@ -34,7 +34,7 @@
                                     echo '<div class="movie-info ">';
                                     echo '<h3>'. $row['movieTitle'] .'</h3>';
                                     echo '<p> FSK:'. $row['movieAgeLevel'] . '</p>';
-                                    echo '<a href="booking.php?id='.$row['movieID'].'"><i class="fas fa-ticket-alt"></i> Details</a>';
+                                    echo '<a href="details.php?id='.$row['movieID'].'"><i class="fas fa-ticket-alt"></i> Details</a>';
                                     echo '</div>';
                                     echo '</div>';
                                 }
@@ -82,7 +82,8 @@
         </div>
     </div>
     <footer></footer>
-
+    <script src="scripts/jquery-3.3.1.min.js "></script>
+    <script src="scripts/script.js "></script>
 
 </body>
 
