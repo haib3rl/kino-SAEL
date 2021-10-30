@@ -22,7 +22,7 @@
     }
 
     .navbar-brand {
-        height: 20em;
+        height: 8em;
         overflow: hidden;
     }
 
@@ -31,24 +31,24 @@
         display: block;
         position: relative;
         top: -195%;
-        left: -25%;
-        height: 219%;
+        left: -5%;
+        height: 180%;
         width: 200%;
         background: #aa964c;
         box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.1);
-        transform: rotateZ(-6deg) skew(-6deg);
+        transform: rotateZ(-5deg) skew(-6deg);
     }
 
     .navbar-brand .navbar-heading {
         position: absolute;
-        top: 4vmax;
+        top: 1vmax;
         left: 2vmax;
         padding: 0;
         margin: 0;
         color: #fff;
-        font-size: 7em;
+        font-size: 5em;
         font-family: 'Lobster', cursive;
-        transform: rotateZ(-6deg);
+        transform: rotateZ(-5deg);
         text-shadow: 2px 2px 0px #6e5a11, 4px 4px 0px #836d24, 6px 6px 0px #a88616, 8px 8px 0px #b08909, 10px 10px 0px #ab995e;
     }
 
@@ -103,7 +103,7 @@
 
     .navbar-container {
         position: absolute;
-        top: 8em;
+        top: 5em;
         right: 1%;
     }
 
