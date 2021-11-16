@@ -42,7 +42,19 @@
 				<div class="facts">
 					<pre><b>Originaltitel:</b>	<?php echo $row['movieTitle']; ?></pre>
 					<pre><b>Darsteller:</b></pre>
-					<pre class="darsteller">Tom Hardy, <wbr/>Michelle Williams, <wbr/>Woody Harrelson, <wbr/>Naomie Harris, <wbr/>Stephen Graham, <wbr/>Reid Scott</pre>
+					<pre class="darsteller">
+						 <?php
+						  $actors = explode(',',$row['movieActors']);
+						  foreach ($actors as $key=>$acto) {
+							if ( $key != 0 || $key !=count($actors) ){
+								$tag =', <wbr/>';
+							  } else {
+								  $tag = ', ';
+							  }
+							  echo '' . $actor .  $tag;
+						  }
+						?>
+					</pre>
 					<pre><b>Regie:</b>		<?php echo $row['movieDirector']; ?></pre>
 					<pre><b>Genre:</b>		<?php echo $row['movieGenre']; ?></pre>
 					<pre><b>Altersfreigabe:</b>	freigegeben ab <?php echo $row['movieAgeLevel']; ?> Jahren</pre>
