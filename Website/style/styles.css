@@ -212,6 +212,8 @@
         display: block;
         height: 100%;
         width: 100%;
+        border: 0px solid #aa964c00;
+        border-radius: 10px;
     }
 
     .movie-box .movie-info {
@@ -231,12 +233,15 @@
 
     .movie-box:hover .movie-info {
         opacity: 0.8;
+        border: 0px solid #aa964c00;
+        border-radius: 10px;
     }
 
     .movie-info>h3 {
         padding: 10px 0;
         color: #FFF;
     }
+    
     .movie-info>p {
         color: #FFF;
         padding: 0.35em 1.2em;
@@ -255,10 +260,29 @@
         transition: all 0.2s;
     }
 
-    .movie-info>a:hover {
+    .movie-info>a:hover{
         color: #000000;
         background-color: #FFFFFF;
     }
+
+
+    .rr{
+        width: 5px;
+    }
+    .rr:hover{
+        animation: grow 2s linear;
+    }
+    .rr .video{
+        width: 100%;
+        height: 100%;
+        aspect-ratio: 16 / 9;
+    }
+
+    @keyframes grow {
+        0%   {width: 0%; padding-right: 1000px;}
+        100% {width: 100%; padding-right: 0px;}
+    }
+
 
     /* Trailers Section */
 

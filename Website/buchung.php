@@ -141,9 +141,6 @@
             </div>
         </div>
 	</div>
-    <div class="container">
-        
-    </div>
 	<footer></footer>
 	<script src="scripts/jquery-3.3.1.min.js "></script>
     <script src="scripts/script.js "></script>
