@@ -36,14 +36,16 @@ body{
 	padding: 16px;
 	background-color: var(--element-bg-color);
 	color: var(--element-txt-color);
-	align-items: center;
+    aspect-ratio: 1 / 1;
     display: flex;
     justify-content: center;
 }
 
 .seats{
-    align-items: center;
-    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
 }
 .seats input{
     width: 80px; 
@@ -60,4 +62,18 @@ body{
     border: 0px solid #aa964c00;
     border-radius: var(--element-border-radius);
     pointer-events: none;
+}
+
+.row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8, .row9, .row10{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-basis: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+
+.chair1, .chair2, .chair3, .chair4, .chair5, .chair6, .chair7, .chair8, .chair9, .chair10{
+    flex-grow: 1;
 }
