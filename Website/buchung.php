@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php 
+        $id = $_GET['id'];
         $link = mysqli_connect("localhost", "root", "", "cinema_db");
+
+        $movieQuery = "SELECT * FROM movieTable WHERE movieID = $id"; 
+        $movieImageById = mysqli_query($link,$movieQuery);
+        $row = mysqli_fetch_array($movieImageById);
 ?>
 
 <head>
