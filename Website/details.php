@@ -45,7 +45,7 @@
 					<pre class="darsteller">
 						 <?php
 						  $actors = explode(',',$row['movieActors']);
-						  foreach ($actors as $key=>$acto) {
+						  foreach ($actors as $key=>$actor) {
 							if ( $key != 0 || $key !=count($actors) ){
 								$tag =', <wbr/>';
 							  } else {
@@ -77,24 +77,24 @@
 						<th class="tg-nrix">Di 02.11</th>
 					</tr>
 				</thead>
-				<tbody>
+				<tbody> 
 					<tr>
-						<td class="tg-nrix"><a href="./Buchung.htm">18:30</a></td>
-						<td class="tg-nrix"><a href="./Buchung.htm">18:30</a></td>
-						<td class="tg-nrix"><a href="./Buchung.htm">18:30</a></td>
-						<td class="tg-nrix"><a href="./Buchung.htm">18:30</a></td>
-						<td class="tg-nrix"><a href="./Buchung.htm">18:30</a></td>
-						<td class="tg-nrix"><a href="./Buchung.htm">18:30</a></td>
-						<td class="tg-nrix"><a href="./Buchung.htm">18:30</a></td>
+						<td class="tg-nrix"><a href=<?php echo 'booking.php?id='.$row['movieID'].'&date=27-10&time=18-30' ?>>18:30</a></td>
+						<td class="tg-nrix"><a href=<?php echo 'booking.php?id='.$row['movieID'].'&date=28-10&time=18-30' ?>>18:30</a></td>
+						<td class="tg-nrix"><a href=<?php echo 'booking.php?id='.$row['movieID'].'&date=29-10&time=18-30' ?>>18:30</a></td>
+						<td class="tg-nrix"><a href=<?php echo 'booking.php?id='.$row['movieID'].'&date=30-10&time=18-30' ?>>18:30</a></td>
+						<td class="tg-nrix"><a href=<?php echo 'booking.php?id='.$row['movieID'].'&date=01-11&time=18-30' ?>>18:30</a></td>
+						<td class="tg-nrix"><a href=<?php echo 'booking.php?id='.$row['movieID'].'&date=02-11&time=18-30' ?>>18:30</a></td>
+						<td class="tg-nrix"><a href=<?php echo 'booking.php?id='.$row['movieID'].'&date=03-11&time=18-30' ?>>18:30</a></td>
 					</tr>
 					<tr>
-						<td class="tg-nrix"><a href="./Buchung.htm">20:30</a></td>
-						<td class="tg-nrix"><a href="./Buchung.htm">20:30</a></td>
-						<td class="tg-nrix"><a href="./Buchung.htm">20:30</a></td>
-						<td class="tg-nrix"><a href="./Buchung.htm">20:30</a></td>
-						<td class="tg-nrix"><a href="./Buchung.htm">20:30</a></td>
-						<td class="tg-nrix"><a href="./Buchung.htm">20:30</a></td>
-						<td class="tg-nrix"><a href="./Buchung.htm">20:30</a></td>
+						<td class="tg-nrix"><a href=<?php echo 'booking.php?id='.$row['movieID'].'&date=27-10&time=20-30' ?>>20:30</a></td>
+						<td class="tg-nrix"><a href=<?php echo 'booking.php?id='.$row['movieID'].'&date=28-10&time=20-30' ?>>20:30</a></td>
+						<td class="tg-nrix"><a href=<?php echo 'booking.php?id='.$row['movieID'].'&date=29-10&time=20-30' ?>>20:30</a></td>
+						<td class="tg-nrix"><a href=<?php echo 'booking.php?id='.$row['movieID'].'&date=30-10&time=20-30' ?>>20:30</a></td>
+						<td class="tg-nrix"><a href=<?php echo 'booking.php?id='.$row['movieID'].'&date=01-11&time=20-30' ?>>20:30</a></td>
+						<td class="tg-nrix"><a href=<?php echo 'booking.php?id='.$row['movieID'].'&date=02-11&time=20-30' ?>>20:30</a></td>
+						<td class="tg-nrix"><a href=<?php echo 'booking.php?id='.$row['movieID'].'&date=03-11&time=20-30' ?>>20:30</a></td>
 					</tr>
 				</tbody>
 			</table>
