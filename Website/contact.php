@@ -21,7 +21,33 @@
 </head>
 <body>
     <header></header>
-
+    <div class="container">
+        <div class="block">
+            <h1 class="row">CSS Kino</h1>
+            <div class="innerBlock">
+                <p class="row">Odenwaldstraße 5</p>
+                <p class="row">74172 Neckarsulm</p>
+                <p class="row">Tel.:  +49 7132 9756 0</p>
+                <p class="row">Fax.: +49 7132 9756 300</p>
+            </div>
+        </div>
+        <div class="block">
+            <h1 class="row">Kontaktformular</h1>
+            <p class="row">Ihr Name</p>
+            <input type="text" id="name" name="name" class="inputfield">
+            <p class="row">E-Mail</p>
+            <input type="text" id="mail" name="mail" class="inputfield">
+            <p class="row">Bemerkung</p>
+            <textarea 
+                wrap="virtual" 
+                name="text" 
+                id="comment"
+                rows="10" 
+                cols="40" 
+                autocomplete="off"
+                class="inputfield">
+        </div>
+    </div>
     <footer></footer>
 	<script src="scripts/jquery-3.3.1.min.js "></script>
     <script src="scripts/script.js "></script>
