@@ -66,10 +66,12 @@
 	  border-radius: var(--element-border-radius);
 	  box-shadow: var(--element-shadow);
 	  aspect-ratio: 16 / 9; 
+	  transition: all 0.25s ease-in;
   }
   .imgvid .trailer:hover{
 	  box-shadow: 0px 0px 20px 10px #000000;
 	  /*z-index: 10;*/
+	  transition: all 0.25s ease-in;
   }
   
   .information{

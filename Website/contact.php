@@ -41,11 +41,12 @@
             <textarea 
                 wrap="virtual" 
                 name="text" 
+                required="true"
                 id="comment"
                 rows="10" 
                 cols="40" 
                 autocomplete="off"
-                class="inputfield">
+                class="inputfield"></textarea>
         </div>
     </div>
     <footer></footer>
