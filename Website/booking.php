@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="style/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/buchung.css">
     <title>Datails: <?php echo $row['movieTitle']; ?> </title>
     <link rel="icon" type="image/png" href="img/logo.png">
 </head>
@@ -69,40 +70,22 @@
             </div>
             <div class="booking-form-container">
                 <form action="" method="POST">
-
-                  <!--*  <select name="theatre" required>
-                        <option value="" disabled selected>THEATRE</option>
-                        <option value="main-hall">Main Hall</option>
-                        <option value="vip-hall">VIP Hall</option>
-                        <option value="private-hall">Private Hall</option>
-                    </select>
-
-                    <select name="type" required>
-                        <option value="" disabled selected>TYPE</option>
-                        <option value="3d">3D</option>
-                        <option value="2d">2D</option>
-                        <option value="imax">IMAX</option>
-                        <option value="7d">7D</option>
-                    </select>
-
-                    <select name="date" required>
-                        <option value="" disabled selected>DATE</option>
-                        <option value="12-3">March 12,2019</option>
-                        <option value="13-3">March 13,2019</option>
-                        <option value="14-3">March 14,2019</option>
-                        <option value="15-3">March 15,2019</option>
-                        <option value="16-3">March 16,2019</option>
-                    </select>
-
-                    <select name="hour" required>
-                        <option value="" disabled selected>TIME</option>
-                        <option value="09-00">09:00 AM</option>
-                        <option value="12-00">12:00 AM</option>
-                        <option value="15-00">03:00 PM</option>
-                        <option value="18-00">06:00 PM</option>
-                        <option value="21-00">09:00 PM</option>
-                        <option value="24-00">12:00 PM</option>
-                    </select>-->
+                <div class="seats">
+            <?php
+            for ($i = 1; $i <= 10; $i++) {
+                echo "<div class='row" .$i."'>";
+                    for ($c = 1; $c <= 10; $c++) {
+                   echo "     <input id=\"chair" .$i . "_". $c . "\" type='checkbox' name='Chair[]' src=\"./img/icons/outline_chair_white_24dp.png\" alt=\"text\" value=\"". $i. "_" .$c ."\">
+                        <img for=\"chair".$i . "_". $c . "\" src=\"./img/icons/outline_chair_white_24dp.png\" > </ input>";
+                    }
+                echo "</div>";
+            }
+            ?>
+            
+        
+            
+</div>
+                  
                     <input placeholder="First Name" type="text" name="fName" required>
 
                     <input placeholder="Last Name" type="text" name="lName">
@@ -113,12 +96,9 @@
                     <?php
                     $fNameErr = $pNumberErr= "";
                     $fName = $pNumber = "";
-                    $seats = [];
-                    array_push($seats, "1_15", "2_3");
-                    $selectedseats = implode(',', $seats);
             
                     if(isset($_POST['submit'])){
-                     
+                        $selectedseats = implode(',', $_POST["Chair"]) ;
             
                         $fName = $_POST['fName'];
                         if (!preg_match('/^[a-zA-Z0-9\s]+$/', $fName)) {
