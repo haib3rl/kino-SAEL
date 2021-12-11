@@ -20,124 +20,125 @@
 	<div class="container">
         <div class="seats">
             <div class="row1">
-                <input class="chair1" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair2" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair3" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair4" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair5" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair6" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair7" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair8" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair9" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair10" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair1" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair2" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair3" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair4" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair5" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair6" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair7" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair8" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair9" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair10" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
             </div>
             <div class="row2">
-                <input class="chair1" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair2" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair3" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair4" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair5" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair6" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair7" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair8" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair9" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair10" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair1" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair2" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair3" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair4" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair5" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair6" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair7" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair8" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair9" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair10" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
             </div>
             <div class="row3">
-                <input class="chair1" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair2" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair3" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair4" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair5" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair6" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair7" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair8" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair9" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair10" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair1" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair2" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair3" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair4" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair5" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair6" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair7" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair8" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair9" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair10" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
             </div>
             <div class="row4">
-                <input class="chair1" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair2" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair3" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair4" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair5" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair6" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair7" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair8" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair9" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair10" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair1" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair2" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair3" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair4" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair5" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair6" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair7" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair8" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair9" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair10" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
             </div>
             <div class="row5">
-                <input class="chair1" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair2" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair3" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair4" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair5" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair6" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair7" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair8" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair9" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair10" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair1" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair2" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair3" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair4" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair5" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair6" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair7" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair8" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair9" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair10" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
             </div>
             <div class="row6">
-                <input class="chair1" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair2" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair3" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair4" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair5" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair6" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair7" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair8" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair9" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair10" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair1" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair2" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair3" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair4" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair5" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair6" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair7" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair8" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair9" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair10" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
             </div>
             <div class="row7">
-                <input class="chair1" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair2" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair3" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair4" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair5" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair6" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair7" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair8" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair9" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair10" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair1" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair2" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair3" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair4" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair5" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair6" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair7" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair8" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair9" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair10" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
             </div>
             <div class="row8">
-                <input class="chair1" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair2" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair3" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair4" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair5" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair6" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair7" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair8" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair9" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair10" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair1" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair2" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair3" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair4" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair5" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair6" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair7" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair8" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair9" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair10" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
             </div>
             <div class="row9">
-                <input class="chair1" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair2" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair3" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair4" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair5" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair6" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair7" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair8" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair9" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair10" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair1" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair2" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair3" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair4" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair5" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair6" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair7" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair8" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair9" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair10" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
             </div>
             <div class="row10">
-                <input class="chair1" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair2" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair3" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair4" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair5" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair6" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair7" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair8" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair9" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
-                <input class="chair10" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair10_1" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <img for="chair10_1" src="./img/icons/outline_chair_white_24dp.png">
+                <input id="chair2" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair3" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair4" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair5" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair6" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair7" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair8" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair9" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
+                <input id="chair10" type="image" name="Chair" src="./img/icons/outline_chair_white_24dp.png" alt="text">
             </div>
         </div>
 	</div>
