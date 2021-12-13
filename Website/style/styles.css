@@ -35,8 +35,7 @@
         height: 180%;
         width: 200%;
         background: #aa964c;
-        /*box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.1);*/
-        box-shadow:  0px 0px 12px 5px #303030;
+        box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.1);
         transform: rotateZ(-5deg) skew(-6deg);
     }
 
@@ -50,7 +49,7 @@
         font-size: 5em;
         font-family: 'Lobster', cursive;
         transform: rotateZ(-5deg);
-        text-shadow: 2px 2px 0px #6e5a11, 4px 4px 0px #836d24, 6px 6px 0px #a88616, 8px 8px 0px #b08909, 10px 10px 0px #ab995e, 14px 14px 5px #303030;
+        text-shadow: 2px 2px 0px #6e5a11, 4px 4px 0px #836d24, 6px 6px 0px #a88616, 8px 8px 0px #b08909, 10px 10px 0px #ab995e;
     }
 
     nav {
@@ -65,13 +64,9 @@
 
     .navbar-menu {
         list-style-type: none;
-        padding: 3;
+        margin: 0;
+        padding: 0;
         overflow: hidden;
-        border: var(--element-border-thickness) solid var(--element-border-color) var(--element-border-radius);
-	    border-radius: var(--element-border-radius);
-        box-shadow:  inset 0px 0px 12px 5px #303030;
-        background-color: var(--element-bg-color);
-        margin-right: 5px;
     }
 
     .navbar ul li {
@@ -84,9 +79,6 @@
     .navbar ul li:hover {
         cursor: pointer;
         background-color: #aa964c;
-        border: var(--element-border-thickness) solid var(--element-border-color) var(--element-border-radius);
-	    border-radius: var(--element-border-radius);
-        box-shadow: 0px 0px 12px 5px #303030;
     }
 
     .navbar ul li:hover>a {
@@ -97,13 +89,13 @@
         visibility: hidden;
         opacity: 0;
         position: absolute;
-        transition: all 0.2s ease;
+        transition: all 0.5s ease;
         background-color: #b6b6b6;
     }
 
     .navbar-menu li a {
         display: block;
-        color: #262626;
+        color: #969696;
         text-align: center;
         padding: 12px 36px;
         text-decoration: none;
@@ -220,8 +212,6 @@
         display: block;
         height: 100%;
         width: 100%;
-        border: 0px solid #aa964c00;
-        border-radius: 10px;
     }
 
     .movie-box .movie-info {
@@ -241,15 +231,12 @@
 
     .movie-box:hover .movie-info {
         opacity: 0.8;
-        border: 0px solid #aa964c00;
-        border-radius: 10px;
     }
 
     .movie-info>h3 {
         padding: 10px 0;
         color: #FFF;
     }
-    
     .movie-info>p {
         color: #FFF;
         padding: 0.35em 1.2em;
@@ -268,29 +255,10 @@
         transition: all 0.2s;
     }
 
-    .movie-info>a:hover{
+    .movie-info>a:hover {
         color: #000000;
         background-color: #FFFFFF;
     }
-
-
-    .rr{
-        width: 5px;
-    }
-    .rr:hover{
-        animation: grow 2s linear;
-    }
-    .rr .video{
-        width: 100%;
-        height: 100%;
-        aspect-ratio: 16 / 9;
-    }
-
-    @keyframes grow {
-        0%   {width: 0%; padding-right: 1000px;}
-        100% {width: 100%; padding-right: 0px;}
-    }
-
 
     /* Trailers Section */
 

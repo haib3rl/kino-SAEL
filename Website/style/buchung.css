@@ -77,3 +77,22 @@ body{
 .chair1, .chair2, .chair3, .chair4, .chair5, .chair6, .chair7, .chair8, .chair9, .chair10{
     flex-grow: 1;
 }
+
+input[type="checkbox"]{
+  display:none;
+}
+input[type="checkbox"]+img{
+  cursor:pointer;
+  display:block;
+  position:relative;
+}
+input[type="checkbox"]:checked~img{
+    display:block;
+    content:"";
+    position:relative;
+    top:0px;
+    left:0px;
+    border: #9e1313;
+    color: #9e1313;
+    border-width: 4px;
+}

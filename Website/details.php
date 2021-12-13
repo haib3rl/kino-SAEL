@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="style/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-		<link rel="stylesheet" href="./style/DetailPage.css">
+		<link rel="stylesheet" href="style/DetailPage.css">
     <title>Details: <?php echo $row['movieTitle']; ?> </title>
     <link rel="icon" type="image/png" href="img/logo.png">
 </head>
@@ -95,7 +95,6 @@
 						<td class="tg-nrix"><a href=<?php echo 'booking.php?id='.$row['movieID'].'&date=01-11&time=20-30' ?>>20:30</a></td>
 						<td class="tg-nrix"><a href=<?php echo 'booking.php?id='.$row['movieID'].'&date=02-11&time=20-30' ?>>20:30</a></td>
 						<td class="tg-nrix"><a href=<?php echo 'booking.php?id='.$row['movieID'].'&date=03-11&time=20-30' ?>>20:30</a></td>
-
 					</tr>
 				</tbody>
 			</table>
