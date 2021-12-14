@@ -9,6 +9,9 @@
         $movieQuery = "SELECT * FROM movieTable WHERE movieID = $id"; 
         $movieImageById = mysqli_query($link,$movieQuery);
         $row = mysqli_fetch_array($movieImageById);
+        $bookedChairsQuery ="SELECT bookingSeatNumber FROM bookingtable WHERE bookingDate ='". $date ."' and bookingtime ='". $time ."' and movieName = '". $row['movieTitle'] . "'" ;
+        $reservedseats =  mysqli_query($link,$bookedChairsQuery);
+        $seats = mysqli_fetch_array($reservedseats);
 ?>
 
 <head>
@@ -68,15 +71,27 @@
                     </tr>
                 </table>
             </div>
+            
+            <?php
+                    echo implode(",", $seats);
+                    ?>
             <div class="booking-form-container">
                 <form action="" method="POST">
                 <div class="seats">
+
             <?php
             for ($i = 1; $i <= 10; $i++) {
                 echo "<div class='row" .$i."'>";
                     for ($c = 1; $c <= 10; $c++) {
-                   echo "     <input id=\"chair" .$i . "_". $c . "\" type='checkbox' name='Chair[]' src=\"./img/icons/outline_chair_white_24dp.png\" alt=\"text\" value=\"". $i. "_" .$c ."\">
-                        <img for=\"chair".$i . "_". $c . "\" src=\"./img/icons/outline_chair_white_24dp.png\" > </ input>";
+
+                        if (str_contains(implode(",", $seats), $i . "_" . $c)) {
+                            echo "     <input  class=\"selectedchair\" id=\"chair" .$i . "_". $c . "\" type='checkbox' name='Chair[]' src=\"./img/icons/outline_chair_red_24dp.png\" alt=\"text\" value=\"". $i. "_" .$c ."\">
+                            <img for=\"chair" .$i . "_". $c . "\" src=\"./img/icons/outline_chair_red_24dp.png\" > </ input>";
+                        } else {
+                            echo "     <input id=\"chair" .$i . "_". $c . "\" type='checkbox' name='Chair[]' src=\"./img/icons/outline_chair_white_24dp.png\" alt=\"text\" value=\"". $i. "_" .$c ."\">
+                            <img for=\"chair".$i . "_". $c . "\" src=\"./img/icons/outline_chair_white_24dp.png\" > </ input>";
+                        }
+                   
                     }
                 echo "</div>";
             }

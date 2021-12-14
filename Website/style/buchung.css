@@ -78,6 +78,22 @@ body{
     flex-grow: 1;
 }
 
+.selectedchair {
+   
+  display:block;
+  position:relative;
+  cursor: not-allowed;
+  
+
+}
+
+.selectedchair img {
+    display:block;
+    position:relative;
+   cursor: not-allowed;
+
+}
+
 input[type="checkbox"]{
   display:none;
 }
@@ -86,7 +102,7 @@ input[type="checkbox"]+img{
   display:block;
   position:relative;
 }
-input[type="checkbox"]:checked~img{
+input:checked ~img{
     display:block;
     content:"";
     position:relative;
