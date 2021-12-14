@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="style/vars.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <title>CSS Kino</title>
@@ -19,8 +20,9 @@
     ?>
     <header></header>
     <div id="home-section-1" class="movie-show-container">
-        <h1>Aktuell gespielt</h1>
-        <h3>jetzt Tickets buchen</h3>
+            <h1>Aktuell gespielt</h1>
+            <h3>jetzt Tickets buchen</h3>
+        
 
         <div class="movies-container">
 
@@ -51,14 +53,67 @@
                         ?>
         </div>
     </div>
-    <div class="rr">
-        <iframe 
-            class="video" 
-            src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
-            title="YouTube video player" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen></iframe>
+    <div class="element-movies">
+        <div class="heading">
+            <div class="text">
+                <h1>Aktuell gespielt</h1>
+                <h3>jetzt Tickets buchen</h3>
+            </div>            
+        </div>
+        <div class="movies">
+            <div class="movie-row">
+                <div class="movie">
+                    <img src="<?php echo $row['movieImg']; ?>"/>
+                    <div class="fsk">FSK</div>
+                </div>
+                <div class="movie">
+                    <img src="<?php echo $row['movieImg']; ?>"/>
+                </div>
+                <div class="movie">
+                    <img src="<?php echo $row['movieImg']; ?>"/>
+                </div>
+                <div class="movie">
+                    <img src="<?php echo $row['movieImg']; ?>"/>
+                </div>
+                <div class="movie">
+                    <img src="<?php echo $row['movieImg']; ?>"/>
+                </div>
+            </div>
+            <div class="movie-row">
+                <div class="movie">
+                    <img src="<?php echo $row['movieImg']; ?>"/>
+                </div>
+                <div class="movie">
+                    <img src="<?php echo $row['movieImg']; ?>"/>
+                </div>
+                <div class="movie">
+                    <img src="<?php echo $row['movieImg']; ?>"/>
+                </div>
+                <div class="movie">
+                    <img src="<?php echo $row['movieImg']; ?>"/>
+                </div>
+                <div class="movie">
+                    <img src="<?php echo $row['movieImg']; ?>"/>
+                </div>
+            </div>
+            <div class="movie-row">
+                <div class="movie">
+                    <img src="<?php echo $row['movieImg']; ?>"/>
+                </div>
+                <div class="movie">
+                    <img src="<?php echo $row['movieImg']; ?>"/>
+                </div>
+                <div class="movie">
+                    <img src="<?php echo $row['movieImg']; ?>"/>
+                </div>
+                <div class="movie">
+                    <img src="<?php echo $row['movieImg']; ?>"/>
+                </div>
+                <div class="movie">
+                    <img src="<?php echo $row['movieImg']; ?>"/>
+                </div>
+            </div>
+        </div>
     </div>
     <div id="home-section-2" class="services-section">
         <h1>Wie es funktioniert</h1>
