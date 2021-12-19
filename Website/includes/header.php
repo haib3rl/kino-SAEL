@@ -6,8 +6,9 @@
 <div class="navbar-container">
     <nav class="navbar">
         <ul class="navbar-menu">
-            <li><a href="index.php">Home</a></li>           
-            <li><a href="contact.php">Contact</a></li>
+            <li><a href="index.php">Beispiel</a></li>
+            <li><a href="index.php">Beispiel</a></li>
+            <li><a href="index.php">Beispiel</a></li>
         </ul>
     </nav>
 </div>

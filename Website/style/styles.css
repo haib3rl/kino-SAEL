@@ -9,6 +9,7 @@
         text-decoration: none;
         color: unset;
     }
+    
     body{
         background-color: var(--main-bg-color);
     }
@@ -79,9 +80,6 @@
         border-color: var(--element-border-color);
         border-radius: var(--element-border-radius);
         border: var(--element-border-thickness);
-        box-shadow: var(--element-shadow-inset);
-        background-color: var(--element-bg-color);
-        color: var(--element-txt-color);
     }
 
     .navbar ul li {

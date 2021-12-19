@@ -15,8 +15,8 @@
  
 <body>
     <?php
-    $link = mysqli_connect("localhost", "root", "", "cinema_db");
-    $sql = "SELECT * FROM movieTable";
+        $link = mysqli_connect("localhost", "root", "", "cinema_db");
+        $sql = "SELECT * FROM movieTable";
     ?>
     <header></header>
     <div id="home-section-1" class="movie-show-container">
@@ -27,32 +27,33 @@
         <div class="movies-container">
 
             <?php
-                        if($result = mysqli_query($link, $sql)){
-                            if(mysqli_num_rows($result) > 0){
-                                for ($i = 0; $i <= 5; $i++){
-                                    $row = mysqli_fetch_array($result);
-                                    echo '<div class="movie-box">';
-                                    echo '<img src="'. $row['movieImg'] .'" alt=" ">';
-                                    echo '<div class="movie-info ">';
-                                    echo '<h3>'. $row['movieTitle'] .'</h3>';
-                                    echo '<p> FSK:'. $row['movieAgeLevel'] . '</p>';
-                                    echo '<a href="details.php?id='.$row['movieID'].'"><i class="fas fa-ticket-alt"></i> Details</a>';
-                                    echo '</div>';
-                                    echo '</div>';
-                                }
-                                mysqli_free_result($result);
-                            } else{
-                                echo '<h4 class="no-annot">No Booking to our movies right now</h4>';
-                            }
-                        } else{
-                            echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
+                if($result = mysqli_query($link, $sql)){
+                    if(mysqli_num_rows($result) > 0){
+                        for ($i = 0; $i <= 5; $i++){
+                            $row = mysqli_fetch_array($result);
+                            echo '<div class="movie-box">';
+                            echo '<img src="'. $row['movieImg'] .'" alt=" ">';
+                            echo '<div class="movie-info ">';
+                            echo '<h3>'. $row['movieTitle'] .'</h3>';
+                            echo '<p> FSK:'. $row['movieAgeLevel'] . '</p>';
+                            echo '<a href="details.php?id='.$row['movieID'].'"><i class="fas fa-ticket-alt"></i> Details</a>';
+                            echo '</div>';
+                            echo '</div>';
                         }
+                        mysqli_free_result($result);
+                    } else{
+                        echo '<h4 class="no-annot">No Booking to our movies right now</h4>';
+                    }
+                } else{
+                    echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
+                }
                         
-                        // Close connection
-                        mysqli_close($link);
-                        ?>
+                // Close connection
+                mysqli_close($link);
+                ?>
         </div>
     </div>
+    <!--
     <div class="element-movies">
         <div class="heading">
             <div class="text">
@@ -115,6 +116,7 @@
             </div>
         </div>
     </div>
+    -->
     <div id="home-section-2" class="services-section">
         <h1>Wie es funktioniert</h1>
         <h3>3 Einfache Schritte bis zum Ticket</h3>

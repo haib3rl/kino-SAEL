@@ -39,28 +39,28 @@
 			<p class="description">
             <?php echo $row['movieDescribtion']; ?>
 			</p>
+			<br/>
 			<div>
 				<div class="facts">
 					<pre><b>Originaltitel:</b>	<?php echo $row['movieTitle']; ?></pre>
-					<pre><b>Darsteller:</b></pre>
-					<pre class="darsteller">
-						 <?php
-						  $actors = explode(',',$row['movieActors']);
-						  foreach ($actors as $key=>$actor) {
-							if ( $key != 0 || $key !=count($actors) ){
-								$tag =', <wbr/>';
-							  } else {
-								  $tag = ', ';
-							  }
-							  echo '' . $actor .  $tag;
-						  }
-						?>
+					<pre><b>Darsteller:</b>
+						<?php
+							$actors = explode(',',$row['movieActors']);
+							foreach ($actors as $key=>$actor) {
+								if ( $key != 0 || $key !=count($actors) ){
+									$tag =', <wbr/>';
+								} else {
+									$tag = ', ';
+								}
+								echo '' . $actor .  $tag;
+							}
+							?>
 					</pre>
 					<pre><b>Regie:</b>		<?php echo $row['movieDirector']; ?></pre>
 					<pre><b>Genre:</b>		<?php echo $row['movieGenre']; ?></pre>
 					<pre><b>Altersfreigabe:</b>	freigegeben ab <?php echo $row['movieAgeLevel']; ?> Jahren</pre>
 					<pre><b>Laufzeit:</b>	ca. <?php echo $row['movieDuration']; ?> min.</pre>
-					<pre><b>Tonsystem:</b>	<?php echo $row['movieSoundsystem']; ?><img class="icon" src="img/Icons/round_speaker_black_24dp.png" alt="speaker"></pre>
+					<pre><b>Tonsystem:</b>	<?php echo $row['movieSoundsystem']; ?></pre>
 					<pre><b>Verleih:</b>	<?php echo $row['movieProducer']; ?></pre>
 				</div>
 			</div>

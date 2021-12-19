@@ -17,5 +17,5 @@
     <p>© 2021 Jakob Meyer Lukas Haiber</p>
     <a>Advertising</a>
     <a>Privacy Policy</a>
-    <a>Contact </a>
+    <a href="contact.php">Contact </a>
 </div>
