@@ -38,6 +38,7 @@
             <div class="movie-box">
                 <?php
                     echo '<img src="'.$row['movieImg'].'" alt="">';
+                    
                     ?>
             </div>
         </div>
@@ -72,9 +73,6 @@
                 </table>
             </div>
             
-            <?php
-                    echo implode(",", $seats);
-                    ?>
             <div class="booking-form-container">
                 <form action="" method="POST">
                 <div class="seats">
@@ -83,14 +81,18 @@
             for ($i = 1; $i <= 10; $i++) {
                 echo "<div class='row" .$i."'>";
                     for ($c = 1; $c <= 10; $c++) {
-
-                        if (str_contains(implode(",", $seats), $i . "_" . $c)) {
-                            echo "     <input  class=\"selectedchair\" id=\"chair" .$i . "_". $c . "\" type='checkbox' name='Chair[]' src=\"./img/icons/outline_chair_red_24dp.png\" alt=\"text\" value=\"". $i. "_" .$c ."\">
-                            <img for=\"chair" .$i . "_". $c . "\" src=\"./img/icons/outline_chair_red_24dp.png\" > </ input>";
+                        if (is_array($seats)) {
+                            if (str_contains(implode(",", $seats), $i . "_" . $c)) {
+                                echo "     <input  class=\"selectedchair\" id=\"chair" .$i . "_". $c . "\" type='checkbox' name='Chair[]' src=\"./img/icons/outline_chair_red_24dp.png\" alt=\"text\" value=\"". $i. "_" .$c ."\">
+                                <img for=\"chair" .$i . "_". $c . "\" src=\"./img/icons/outline_chair_red_24dp.png\" > </ input>";
+                            } else {
+                                echo "     <input id=\"chair" .$i . "_". $c . "\" type='checkbox' name='Chair[]' src=\"./img/icons/outline_chair_white_24dp.png\" alt=\"text\" value=\"". $i. "_" .$c ."\">
+                                <img for=\"chair".$i . "_". $c . "\" src=\"./img/icons/outline_chair_white_24dp.png\" > </ input>";
+                            }
                         } else {
                             echo "     <input id=\"chair" .$i . "_". $c . "\" type='checkbox' name='Chair[]' src=\"./img/icons/outline_chair_white_24dp.png\" alt=\"text\" value=\"". $i. "_" .$c ."\">
                             <img for=\"chair".$i . "_". $c . "\" src=\"./img/icons/outline_chair_white_24dp.png\" > </ input>";
-                        }
+                            }
                    
                     }
                 echo "</div>";
